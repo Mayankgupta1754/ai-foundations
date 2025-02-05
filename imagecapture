@@ -4,7 +4,7 @@ import numpy
 import urllib.request
 haar_file = 'haarcascade_frontalface_default.xml'
 datasets = 'images'  
-sub_data = 'Mayank'     
+sub_data = 'Your_Name'     
 
 path = os.path.join(datasets, sub_data)
 if not os.path.isdir(path):
